@@ -3,7 +3,6 @@ from tensorflow.keras.models import model_from_json
 from PIL import Image, UnidentifiedImageError
 import numpy as np
 import os
-st.write("Archivos disponibles en el directorio:", os.listdir())
 st.set_page_config(page_title="Classificador Gats vs Gossos", layout="centered")
 st.title("🐶 Classificador de Gossos i Gats 🐱")
 st.markdown("Puja una imatge i la IA et dirà si veu un gos o un gat! 🧠")
